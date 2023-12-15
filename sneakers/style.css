@@ -1,0 +1,321 @@
+.display {   
+margin-left: 150px;
+margin-right: 100px;      
+margin-top: 50px;
+}
+
+
+
+.sneak1 {
+display: block;    
+width: 450px;
+height: 700px;    
+background: linear-gradient(#db2338, #f7c846);
+border-radius: 55px;    
+transition: 0.5s;
+}
+
+
+
+
+.sneak2 {
+display: block;   
+width: 450px;
+height: 700px;   
+background: linear-gradient(#3ca3f8, #fcbc02);
+border-radius: 55px;   
+transition: 0.5s;
+}
+
+
+
+
+
+.sneak3 {
+display: block;    
+width: 450px;
+height: 700px;    
+background: linear-gradient(#26c8f5, #02cd7b);
+border-radius: 55px;    
+transition: 0.5s;
+}
+
+
+
+
+
+.container {   
+display: flex;
+justify-items: center;  
+}
+  
+
+
+.container>* { 
+margin: 0 25px;
+}
+
+
+
+
+.fav1 {
+appearance: none;    
+padding: 0;
+background-color: rgb(255, 255, 255);    
+width: 30px;
+height: 30px;    
+margin: 30px;
+float: right;    
+cursor: pointer;    
+outline: none;
+transition: 0.5s;
+-webkit-mask-image: url("heart-svgrepo-com.svg");    
+mask-image: url("heart-filled-svgrepo-com.svg");
+}
+
+
+
+
+.fav1:checked {  
+-webkit-mask-image: url("heart-filled-svgrepo-com.svg");
+mask-image: url("heart-svgrepo-com.svg");
+}
+
+
+
+.fav2 {
+appearance: none;    
+padding: 0;
+background-color: rgb(255, 255, 255);    
+width: 30px;
+height: 30px;    
+margin: 30px;
+float: right;    
+cursor: pointer;    
+outline: none;
+transition: 0.5s;
+-webkit-mask-image: url("heart-svgrepo-com.svg");    
+mask-image: url("heart-filled-svgrepo-com.svg");
+}
+
+
+
+.fav2:checked {    
+-webkit-mask-image: url("heart-filled-svgrepo-com.svg");
+mask-image: url("heart-svgrepo-com.svg");
+}
+
+
+
+
+.fav3 {
+appearance: none;    
+padding: 0;
+background-color: rgb(255, 255, 255);    
+width: 30px;
+height: 30px;    
+margin: 30px;
+float: right;    
+cursor: pointer;    
+outline: none;
+transition: 0.5s;
+-webkit-mask-image: url("heart-svgrepo-com.svg");
+mask-image: url("heart-filled-svgrepo-com.svg");
+}
+
+
+
+
+
+.fav3:checked {
+-webkit-mask-image: url("heart-filled-svgrepo-com.svg");   
+mask-image: url("heart-svgrepo-com.svg");
+}
+
+
+
+
+.price {
+font-size: 20px;
+color: white;
+font-family: Arial;    
+padding: 0;
+margin: 0;    
+width: 30px;
+height: 30px;    
+margin: 30px;
+float: left;
+}
+
+
+
+
+.font {    
+color:rgb(255, 255, 255);
+margin-block-start: -15px;    
+font-size: 15px;
+font-family: Arial;   
+margin-left: 20px;
+margin-right: 20px;   
+float: left;
+}
+
+
+
+
+.font1 {
+text-transform: uppercase;    
+font-family: Verdana;
+font-size: 13px;   
+margin-left: 150px;
+margin-block-start: -30px;   
+color: white;
+}
+
+
+
+.font2 {    
+text-transform: uppercase;
+font-family: Verdana;    
+font-size: 13px;
+margin-left: 180px;    
+margin-block-start: -30px;
+color: white;
+}
+
+
+
+
+.h2 {
+color: rgb(255, 255, 255);    
+font-family: Arial;
+margin-left: 20px;    
+margin-block-start: 100px;
+}
+
+
+
+.h1 {    
+color: rgb(255, 255, 255);
+font-family: Arial;    
+margin-left: 20px;
+margin-block-start: 100px;
+}
+
+
+
+.img {
+margin-block-start: 20px;
+}
+
+
+
+a.button1 {
+display: block;    
+float: center;
+text-align: center;    
+font-family: Arial;
+color: white;    
+font-weight: 850;
+text-decoration: none;   
+padding: 8px;
+border: 2px solid;
+border-radius: 55px;    
+height: 30px;
+width: 170px;    
+transition: 0.5s;
+position: absolute;    
+margin-left: 130px;
+margin-block-start: -90px;  
+} 
+  
+  
+  
+a.button1:hover { 
+background: rgba(255,255,255,);
+}  
+
+a.button1:active { 
+background: white;
+}
+  
+
+
+
+a.button2 {
+display: block;    
+float: center;
+text-align: center;    
+font-family: Arial;
+color: white;
+font-weight: 850;    
+text-decoration: none;
+padding: 8px;    
+border: 2px solid;
+border-radius: 55px;    
+height: 30px;
+width: 170px;    
+transition: 0.5s;
+position: absolute;    
+margin-left: 130px;
+margin-block-start: -90px;  
+} 
+  
+  
+  
+a.button2:hover { 
+    background: rgba(255,255,255,);
+}  
+
+a.button2:active {
+background: white;
+}
+  
+  
+
+a.button3 {
+display: block;   
+float: center;
+text-align: center;    
+font-family: Arial;
+color: white;    
+font-weight: 850;
+text-decoration: none;    
+padding: 8px;
+border: 2px solid;
+border-radius: 55px;    
+height: 30px;
+width: 170px;    
+transition: 0.5s;
+position: absolute;    
+margin-left: 130px;
+margin-block-start: -90px;  
+}
+
+
+a.button3:hover { 
+    background: rgba(255,255,255,);
+}  
+
+
+a.button3:active {
+background: white;
+}
+
+
+.sneak1:hover {
+    width: 490px;
+    height: 770px;
+}
+
+
+.sneak2:hover {
+    width: 490px;
+    height: 770px;
+}
+
+
+.sneak3:hover {
+    width: 490px;
+    height: 770px;
+}
